@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  background-color: beige ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  }
+        table {
+            width: 100%;
+       border:2px solid black;
+        }
+tr
+{
+  background-color:LightGrey;
+  color:black;
+}
+
+        th,td {
+            border:0.2px solid;
+  }
+
+        th {
+            background-color: #f2f2f2;
+        }
+        <!DOCTYPE html>
+    body, h1, h2, p, ul, li {
+margin: 0;
+padding: 0;
+}
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+}
+header {
+background-color: #504d4d;
+color: #fff;
+text-align: center;
+padding: 1rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo img {
+max-width: 100px;
+height: auto;
+}
+.header-content {
+text-align: left;
+}
+nav {
+background-color: #444;
+}
+.menu {
+list-style: none;
+display: flex;
+justify-content: center;
+padding: 1rem 0;
+}
+.menu li {
+margin: 0 1rem;
+position: relative;
+}
+.menu a {
+color: #fff;
+text-decoration: none;
+transition: color 0.3s;
+}
+.menu a:hover {
+color: #ff9900;
+}
+.submenu-content {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: #777070;
+z-index: 1;
+}
+.submenu:hover .submenu-content {
+display: block;
+}
+.department {
+margin-bottom:2rem;
+}
+footer {
+text-align: center;
+padding: 1rem 0;
+background-color:  #333;
+color: #f3f4f7;
+}
+.social-links a {
+color: #90d9f6;
+text-decoration: none;
+margin: 0 10px;
+}
+@media screen and (max-width: 768px) {
+header {
+flex-direction: column;
+}
+img{
+    background-position: center;
+    position: relative;
+    height: 500px;
+  border:none;
+  padding: 5px;
+  width:200%;   
+  background-size: cover;
+}
+.fa {  
+  padding: 20px;  
+text-align: center;  
+  margin: 5px 2px;  
+  font-size: 30px;  
+  width: 50px;  
+} 
+.fa-facebook {  
+  background: #3B5998;  
+  color: white;  
+}  
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+}  
+}
+</style>
+<body>
+    <header>
+      <div class="logo">
+        <img src="data:image/jpeg;base64,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" alt="Institution Logo">
+        </div>
+    <div class="header-content">
+    <h1>N.M.A.M. Institute of Technology</h1>
+    <p>DEEMED UNIVERSITY</p>
+    <p>NITTE,KARKALA,KARNATAKA</p>
+    </div>
+    </header>
+    <nav>
+    <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li class="submenu">
+    <a href="">Departments</a>
+    <ul class="submenu-content">
+    <li><a href="cs.html">Department of CSE</a></li>
+    <li><a href="is.html">Department of ISE</a></li>
+    </ul>
+    </li>
+    <li><a href="res.html">Resources</a></li>
+    <li><a href="cont.html">Contact Us</a></li>
+    </ul>
+    </nav>
+    <img src="comp.png">
+<p>The Department of Computer Science & Engineering, established in 1986, offers UG, PG and
+     research (leading to M.Sc. and Ph.D.) programs. The Department practices outcome-based 
+     education since 2014. With state-of-the-art laboratories and other supporting facilities
+      to provide enhanced learning environment, the Department boasts of well qualified teaching 
+      faculty with rich research, teaching and industrial experience.
+
+    The Department has excellent placement track record in reputed industries with an average
+     of 80 – 85% placement of eligible students over the years. The Department regularly conducts
+      audit courses, and special courses on advanced topics, to bridge the gap between the curriculum and the 
+      need of the industry. The Department offers M.Tech programs in Computer Science & Engineering and in Software
+       Engineering (autonomous under VTU) from the academic year 2003-04 and 2015-16 respectively.
+        From the year 2022-23 M.Tech program is under Nitte University.</p>
+        <h1>VISION</h1>
+      <p>Excellence in computer science and engineering through a strong research and teaching environment that addresses the emerging global challenges and market demands
+        </p>
+        <h1>MISSION</h1>
+        <p>The Department of computer Science & Engineering is committed to</p>
+        <ul>
+            <li> Provide outstanding education and research training to the students for their productive careers in industry, academia and government</li>
+               <li> Provide a learning environment that promotes excellence and innovation, ethical practice and responsibility towards society</li>
+                <li> Prepare the students to practice their professions competently to meet the ever-changing needs of society and to continue learning their discipline, allowing them to move into other related fields</li>
+                    <li> Promote active learning, critical thinking, and engineering judgment coupled with business and entrepreneurial skills</li>
+        </ul>
+        <h1>Program Educational Objectives (PEOs)</h1>
+        <p>Graduates must
+<ul>
+           <li> Gain both theoretical and practical knowledge to identify, formulate & solve challenges in Information Science & Engineering problems.</li>
+            <li> Work productively as computer Science Engineers, including supportive and leadership roles on multidisciplinary teams.</li>
+                <li>  Communicate effectively, recognize and incorporate societal needs and constraints in their professional endeavors, and practice their profession with high regard to legal and ethical responsibilities.</li>
+                    <li>  Engage in life-long learning, such as graduate study, to remain current in their profession and be leaders in our technological society.</li></p></ul>
+  <footer>
+    <div class="social-links">
+           <p><h3> social media links</h3></p>
+                   <a href="https://www.facebook.com/" class="fa fa-facebook"> </a>    
+                   <a href="https://twitter.com/nmamit" class="fa fa-twitter"> </a>   
+           </div>
+    <p>&copy; 2023 NMAMIT. All rights reserved.</p>
+    </footer>
+    </body>
+    </head>
+    </html>
